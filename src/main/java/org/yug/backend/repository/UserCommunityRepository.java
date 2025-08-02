@@ -1,10 +1,11 @@
 // src/main/java/org/yug/backend/repository/UserCommunityRepository.java
 package org.yug.backend.repository;
 
-import org.apache.catalina.User;
+import org.yug.backend.model.auth.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.yug.backend.model.UserCommunity;
+import org.yug.backend.model.UserCommunityId;
  // Import the composite key
 
 import java.util.List;
