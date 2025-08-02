@@ -11,9 +11,9 @@ phases:
     commands:
       - echo "Logging in to Amazon ECR..."
       # Define the ECR repository URI and repository name
-      - REPOSITORY_URI=464011418334.dkr.ecr.ap-south-1.amazonaws.com/tech-circulo-registry
-      - REPO_NAME=tech-circulo-registry
-      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin $REPOSITORY_URI
+      - REPOSITORY_URI=597088051951.dkr.ecr.us-east-1.amazonaws.com/jn/techcirculo
+      - REPO_NAME=jn/techcirculo
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $REPOSITORY_URI
 
   build:
     commands:
