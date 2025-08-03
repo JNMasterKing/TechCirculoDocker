@@ -13,7 +13,7 @@ import java.util.UUID;
 @Data // Apply Lombok for equals and hashCode for the ID class as well
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserCommunityId implements Serializable {
+class UserCommunityId implements Serializable {
     private UUID user;
     private UUID community;
 }
